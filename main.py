@@ -58,10 +58,10 @@ while True:
         cv2.putText(frame, label, (bbox[0], bbox[1]-10), cv2.FONT_HERSHEY_SIMPLEX,0.8,(255,255,255),2, cv2.LINE_AA)
     
     if ret:
-        cv2.imshow('ProjectPraise Age-Gender', frame)
+        cv2.imshow('ProjectPraise Face-Gender', frame)
         
 
-    cv2.imshow('ProjectPraise Age-Gender', frame)
+    cv2.imshow('ProjectPraise Face-Gender', frame)
     k = cv2.waitKey(1)
     if k==ord('q'):
         break
